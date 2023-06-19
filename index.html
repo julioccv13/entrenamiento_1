@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ejercicios</title>
+  <title>Weightlifting Exercises</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <style>
+    /* Styles for the main page */
     body {
       font-family: 'Arial', sans-serif;
+      background-color: #f1f2f6;
+      color: #333;
       margin: 0;
       padding: 20px;
-      background-color: #f1f1f1;
     }
 
     h1 {
       text-align: center;
-      color: #333;
+      color: #2f3542;
       padding: 20px;
       margin-bottom: 30px;
     }
@@ -29,7 +30,7 @@
 
     .exercise h2 {
       font-size: 24px;
-      color: #333;
+      color: #2f3542;
       margin-top: 0;
       margin-bottom: 10px;
     }
@@ -42,36 +43,61 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
-    @media (max-width: 768px) {
-      .exercise {
-        padding: 10px;
-      }
-
-      .exercise h2 {
-        font-size: 20px;
-      }
+    /* Styles for the subpage links */
+    .subpage-links {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 40px;
+      text-align: center;
     }
+
+    .subpage-links li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .subpage-links li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 10px;
+      background-color: #2f3542;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .subpage-links li a:hover {
+      background-color: #667eea;
+    }
+
   </style>
 </head>
 <body>
-  <h1>Ejercicios</h1>
+  <h1>Weightlifting Exercises</h1>
 
-  <div class="exercise animated fadeIn">
-    <h2>Press banco</h2>
+  <div class="exercise">
+    <h2>Bench Press</h2>
     <video src="bench_press_tiktok.mp4" controls></video>
   </div>
 
-  <div class="exercise animated fadeIn">
+  <div class="exercise">
     <h2>Squat</h2>
     <video src="squat_tiktok.mp4" controls></video>
   </div>
 
-  <div class="exercise animated fadeIn">
+  <div class="exercise">
     <h2>Deadlift</h2>
     <video src="deadlift_tiktok.mp4" controls></video>
   </div>
 
   <!-- Add more exercises as needed -->
+
+  <!-- Navigation links to subpages -->
+  <ul class="subpage-links">
+    <li><a href="dia_1.html">Day 1</a></li>
+    <li><a href="dia_2.html">Day 2</a></li>
+    <li><a href="dia_3.html">Day 3</a></li>
+    <li><a href="dia_4.html">Day 4</a></li>
+  </ul>
 
 </body>
 </html>
