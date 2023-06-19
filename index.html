@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Weightlifting Exercises</title>
+  <title>Entrenamiento 1</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <style>
     /* Styles for the main page */
@@ -20,84 +20,54 @@
       margin-bottom: 30px;
     }
 
-    .exercise {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin-bottom: 30px;
+    /* Styles for the paragraph and subtitle links */
+    .subtitle-section {
+      text-align: left;
+      margin-top: 40px;
     }
 
-    .exercise h2 {
-      font-size: 24px;
+    .subtitle-section p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle-section h2 {
+      font-size: 22px;
       color: #2f3542;
       margin-top: 0;
       margin-bottom: 10px;
     }
 
-    .exercise video {
-      display: block;
-      max-width: 100%;
-      margin-top: 10px;
-      border-radius: 5px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Styles for the subpage links */
-    .subpage-links {
-      list-style-type: none;
-      padding: 0;
-      margin-top: 40px;
-      text-align: center;
-    }
-
-    .subpage-links li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-
-    .subpage-links li a {
+    .subtitle-section a {
       text-decoration: none;
-      color: #fff;
-      padding: 5px 10px;
-      background-color: #2f3542;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
+      color: #333;
+      display: block;
+      margin-bottom: 10px;
+      transition: color 0.3s ease;
     }
 
-    .subpage-links li a:hover {
-      background-color: #667eea;
+    .subtitle-section a:hover {
+      color: #667eea;
     }
 
   </style>
 </head>
 <body>
-  <h1>Weightlifting Exercises</h1>
+  <h1>Entrenamiento 1</h1>
 
-  <div class="exercise">
-    <h2>Bench Press</h2>
-    <video src="bench_press_tiktok.mp4" controls></video>
+  <!-- Paragraph and subtitle links section -->
+  <div class="subtitle-section">
+    <p>Entrenamiento de 2 dias tren superior/tren inferioes:<br>
+      Se realiza la secuencia dia 1 y dia 2, un dia de descanso, y reinicia en dia 1<br>
+      Cardio no es obligatorio pero si recomendado, entre 5 y 25 minutos deberia ser suficiente<br>
+      2 días de descanso por semana, se puede elegir libremente<br>
+      Descanso entre series el necesario para completar la siguiente serie<br>
+      Lo mas importante es asegurarse de que cada serie y repeticion se realice con el maximo peso posible </p>
+    <br>
+    <h2><a href="dia_1.html">Dia 1</a></h2>
+    <br>
+    <h2><a href="dia_2.html">Dia 2</a></h2>
   </div>
-
-  <div class="exercise">
-    <h2>Squat</h2>
-    <video src="squat_tiktok.mp4" controls></video>
-  </div>
-
-  <div class="exercise">
-    <h2>Deadlift</h2>
-    <video src="deadlift_tiktok.mp4" controls></video>
-  </div>
-
-  <!-- Add more exercises as needed -->
-
-  <!-- Navigation links to subpages -->
-  <ul class="subpage-links">
-    <li><a href="dia_1.html">Day 1</a></li>
-    <li><a href="dia_2.html">Day 2</a></li>
-    <li><a href="dia_3.html">Day 3</a></li>
-    <li><a href="dia_4.html">Day 4</a></li>
-  </ul>
 
 </body>
 </html>
